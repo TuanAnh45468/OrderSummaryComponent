@@ -580,6 +580,10 @@ button {
   height: 100vh;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-\[375px\] {
   width: 375px;
 }
