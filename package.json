@@ -1,7 +1,7 @@
 {
   "scripts": {
     "watchCSS": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "buildCSS": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "buildCSS": "npx tailwindcss -i ./src/input.css -o ./dist/build.css --minify"
   },
   "devDependencies": {
     "prettier": "^2.8.7",

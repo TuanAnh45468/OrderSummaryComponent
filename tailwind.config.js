@@ -4,7 +4,7 @@ module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
     colors: {
-      "pale-blue": "hsl(225, 100%, 60%)",
+      "pale-blue": "hsl(225, 100%, 70%)",
       "bright-blue": "hsl(245, 75%, 52%)",
       "very-pale-blue": "hsl(225, 100%, 98%)",
       "desaturated-blue": "hsl(224, 23%, 55%)",

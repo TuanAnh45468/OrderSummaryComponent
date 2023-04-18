@@ -424,7 +424,7 @@ video {
 
 body {
   --tw-bg-opacity: 1;
-  background-color: hsl(225 100% 60% / var(--tw-bg-opacity));
+  background-color: hsl(225 100% 70% / var(--tw-bg-opacity));
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
@@ -455,7 +455,7 @@ a {
 
 a:hover {
   --tw-text-opacity: 1;
-  color: hsl(225 100% 60% / var(--tw-text-opacity));
+  color: hsl(225 100% 70% / var(--tw-text-opacity));
   text-decoration-line: none;
 }
 
@@ -580,6 +580,10 @@ button {
   height: 100vh;
 }
 
+.w-\[375px\] {
+  width: 375px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -596,6 +600,14 @@ button {
   gap: 1.5rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-t-3xl {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
@@ -609,6 +621,16 @@ button {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .text-center {
@@ -631,7 +653,7 @@ button {
 
 .hover\:bg-pale-blue:hover {
   --tw-bg-opacity: 1;
-  background-color: hsl(225 100% 60% / var(--tw-bg-opacity));
+  background-color: hsl(225 100% 70% / var(--tw-bg-opacity));
 }
 
 .hover\:text-dark-blue:hover {
