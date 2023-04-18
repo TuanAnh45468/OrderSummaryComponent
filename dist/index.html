@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-  <link href="output.css" rel="stylesheet">
+    <link
+      href="images/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
 
-  <title>Frontend Mentor | Order summary card</title>
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body
+    class="flex h-screen items-center justify-center max-[767px]:bg-mobile-background"
+  >
+    <main class="flex flex-col items-center gap-6 bg-white text-center">
+      <picture>
+        <img
+          alt="illustration hero music"
+          class="rounded-t-3xl"
+          src="images/illustration-hero.svg"
+        />
+      </picture>
 
-</head>
-<body>
-  Order Summary
+      <h1>Order Summary</h1>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+      <p class="text-desaturated-blue">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
 
-  Annual Plan
-  $59.99/year
+      <section class="flex items-center">
+        <img
+          alt="icon music"
+          class="inline-block mr-4"
+          src="images/icon-music.svg"
+        />
 
-  Change
+        <div class="mr-16">
+          <p class="font-bold">Annual Plan</p>
+          <div class="text-desaturated-blue">$59.99/year</div>
+        </div>
 
-  Proceed to Payment
-  Cancel Order
+        <a href="#">Change</a>
+      </section>
 
-</body>
+      <button class="bg-bright-blue text-white hover:bg-pale-blue">Proceed to Payment</button>
+      <button class="text-desaturated-blue hover:text-dark-blue">Cancel Order</button>
+    </main>
+  </body>
 </html>

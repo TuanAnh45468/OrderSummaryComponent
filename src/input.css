@@ -4,6 +4,18 @@
 
 @layer base{
     body{
-        @apply text-base
+        @apply text-base md:bg-desktop-background bg-pale-blue bg-top bg-no-repeat bg-contain font-Red-Hat-Display
+    }
+
+    h1{
+        @apply text-2xl font-extra-bold
+    }
+
+    a{
+        @apply font-bold inline-block text-bright-blue hover:text-pale-blue underline hover:no-underline
+    }
+
+    button{
+        @apply h-12 w-80 font-bold rounded-lg
     }
 }
